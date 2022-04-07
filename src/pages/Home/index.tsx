@@ -1,5 +1,6 @@
 import './styles.css';
 import CarImage from '../../assets/images/car.png';
+import { Link } from 'react-router-dom';
 export const Home = () => {
   return (
     <section>
@@ -23,7 +24,9 @@ export const Home = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="container-info">
-              <button className="btn btn-default">VER CATÁLOGO</button>
+              <Link to="/products">
+                <button className="btn btn-default">VER CATÁLOGO</button>
+              </Link>
               <p>Comece agora a navegar</p>
             </div>
           </div>
