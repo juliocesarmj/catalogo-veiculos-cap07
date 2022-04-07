@@ -1,0 +1,23 @@
+.card-car {
+    background-color: #EDEDED;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 15px 20px;
+}
+.image-card img {
+    max-width: 100%;
+}
+.content-card-body h6 {
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.content-card-body p {
+    font-size: .8em;
+    width: 100%;
+    font-style: italic;
+}

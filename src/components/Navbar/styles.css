@@ -1,0 +1,28 @@
+.main-menu li + li {
+    margin-left: 40px;
+}
+nav.menu {
+    background:#F78B00;
+}
+
+button.navbar-toggler {
+    border: none;
+}
+.nav-logo-text h2, .main-menu li a{
+    color: #00285F;
+}
+
+.main-menu a.active {
+    font-weight: bold;
+  }
+@media(max-width: 767px) {
+    .main-menu li + li {
+        margin-left: 0;
+    }
+}
+
+@media(min-width: 768px) {
+    .menu {
+        padding: 15px 0;
+    }
+}

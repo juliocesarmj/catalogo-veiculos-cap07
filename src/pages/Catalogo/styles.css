@@ -1,0 +1,24 @@
+.container .filtro-busca {
+    display: flex;
+    justify-content: center;
+    background-color:#EDEDED;
+    margin-top: 80px !important;
+    padding: 30px 15px;
+    border-radius: 10px;
+
+}
+
+.btn-default-filtro {
+    border-radius: 0 5px 5px 0;
+    text-transform: uppercase;
+    background-color: #00285F;
+    color: #fff;
+    font-size: .7em;
+}
+
+.filtro-busca input {
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 5px 10px;
+    font-size: .7em;
+}
